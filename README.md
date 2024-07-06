@@ -11,14 +11,14 @@
 - Decompression engine, multimedia decoders, and ARM Neoverse V2 cores for optimized data handling and retrieval​
 
 ### B200
-- Blackwell Architecture, NVLink 5.0, 2024
+- Blackwell Architecture, NVLink 5, 2024
 - Higher performance than B100 with up to 9 PFLOPS for dense FP4 tensor operations and 18 PFLOPS for sparse FP4.
 - Supports 192GB of HBM3e memory with 8 TB/s bandwidth.
 - Enhanced NVLink and PCIe Gen6 for improved data transfer, and a TDP of 1000W, making it suitable for the most demanding AI tasks.
 - Power: 1000W TDP, designed for high-end performance and demanding AI tasks​ 
 
 ### B100 
-- Blackwell Architecture, NVLink 5.0, 2024
+- Blackwell Architecture, NVLink 5, 2024
 - Balanced computational efficiency with up to 7 PFLOPS for dense FP4 tensor operations and 14 PFLOPS for sparse FP4.
 - Supports 192GB of HBM3e memory with 8 TB/s bandwidth.
 - Utilizes NVLink for 1.8 TB/s bandwidth, suitable for high-performance AI and HPC workloads.
@@ -36,17 +36,19 @@
 - NVLink-C2C for direct GPU communication without CPU involvement.
 - Advanced AI capabilities, especially for large-scale models.
 - Enhanced Tensor Cores and Transformer Engine for efficiency.
+- [H100 White Paper](https://jingchaozhang.github.io/H100-white-paper/)
 ![image](https://github.com/ziwon/nvidia-gpu-arch/assets/152046/a7a709a3-3cab-4f98-bc42-5bcd4359a96e)
 
 ### A100
-- Ampere Architecture, Transformer Engine, 2020
+- Ampere Architecture, NVLink 3, Transformer Engine, 2020
 - Transformer Engine optimized for transformer networks.
 - Multi-instance GPU (MIG) for better utilization.
 - Improved Tensor Cores for enhanced AI model training and inference.
+- [A100 White Paper](https://jingchaozhang.github.io/A100-white-paper/)
 ![image](https://github.com/ziwon/nvidia-gpu-arch/assets/152046/2d36f60e-42d6-404b-ba74-22c2f2b2eaea)
 
 ### V100 
-- Volta Architecture, Tensor Core, 2017
+- Volta Architecture, NVLink2, Tensor Core, 2017
 - Introduction of Tensor Cores for accelerated deep learning tasks.
 - Improved NVLink for faster GPU-to-GPU communication.
 - Enhanced performance for AI and HPC workloads.
@@ -58,10 +60,21 @@
 - Focus on scientific computing, simulations, and deep learning.
 
 ## Docs
-- [NVIDIA Blackwell Architecture Technical Brief](https://resources.nvidia.com/en-us-blackwell-architecture)
+- [Blackwell, NVIDIA Blackwell Architecture](https://resources.nvidia.com/en-us-blackwell-architecture)
+- [Hopper, NVIDIA H100 Tensor Core GPU Architecture](https://resources.nvidia.com/en-us-tensor-core)
+- [Ampere, NVIDIA A100 Tensor Core GPU Architecture](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/nvidia-ampere-architecture-whitepaper.pdf)
+- [Turing, NVIDIA Turing GPU Architecture](https://www.nvidia.com/en-us/design-visualization/technologies/turing-architecture/)
+- [Volta, NVIDIA TESLA V100](http://www.nvidia.com/object/volta-architecture-whitepaper.html)
+- [Pascal, NVIDIA TESLA P100](http://www.nvidia.com/object/gpu-architecture.html)
+- [AMD CDNA2](https://www.amd.com/system/files/documents/amd-cdna2-white-paper.pdf)
+- [AMD CDNA](https://www.amd.com/system/files/documents/amd-cdna-whitepaper.pdf)
+
+- [B200 Datasheet](https://resources.nvidia.com/en-us-dgx-systems/dgx-b200-datasheet)
+- [H100 Datasheet](https://resources.nvidia.com/en-us-dgx-systems/ai-enterprise-dgx)
+  
 - [NVIDIA DGX SuperPOD: Next Generation Scalable Infrastructure for AI Leadership](https://docs.nvidia.com/https:/docs.nvidia.com/dgx-superpod-reference-architecture-dgx-h100.pdf)
 - [NVIDIA DGX BasePOD: The Infrastructure Foundation for Enterprise AI](https://resources.nvidia.com/en-us-dgx-systems/nvidia-dgx-basepod)
-- [H100 Datasheet](https://resources.nvidia.com/en-us-dgx-systems/ai-enterprise-dgx)
+
 - [ConnectX-7 400G Adapters](https://nvdam.widen.net/s/srdqzxgdr5/connectx-7-datasheet)
   - 32 lanes of PCIe Gen 5.0, compatible with PCIe Gen 2/3/4
   - Integrated PCI switch
@@ -77,9 +90,10 @@
 
 ## Articles
 - [NVIDIA’s Blackwell Architecture: Breaking Down The B100, B200, and GB200](https://www.linkedin.com/pulse/nvidias-blackwell-architecture-breaking-down-b100-b200-gb200-wlp0c)
+- [NVIDIA Blackwell Architecture and B200/B100 Accelerators Announced: Going Bigger With Smaller Data](https://www.anandtech.com/show/21310/nvidia-blackwell-architecture-and-b200b100-accelerators-announced-going-bigger-with-smaller-data)
 - [Nvidia Blackwell Perf TCO Analysis - B100 vs B200 vs GB200NVL72](https://www.semianalysis.com/p/nvidia-blackwell-perf-tco-analysis)
 - [LLM Inference - HW/SW Optimizations](https://www.linkedin.com/pulse/llm-inference-hwsw-optimizations-sharada-yeluri-wfdyc)
-
+- [Hpc network technologies](https://jingchaozhang.github.io/HPC-network-technologies/)
 
 ## Certifications
 - [(NCA-AIIO) AI Infrastructure and Operations](https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/)
@@ -111,3 +125,4 @@
 
 ## Links
 - [GPU Guide](https://github.com/mikeroyal/GPU-Guide)
+- [NVIDIA Linux Open GPU Kernel Module Source](https://github.com/NVIDIA/open-gpu-kernel-modules)

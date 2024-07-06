@@ -60,12 +60,12 @@
 - Focus on scientific computing, simulations, and deep learning.
 
 ## Docs
-- [Blackwell, NVIDIA Blackwell Architecture](https://resources.nvidia.com/en-us-blackwell-architecture)
-- [Hopper, NVIDIA H100 Tensor Core GPU Architecture](https://resources.nvidia.com/en-us-tensor-core)
-- [Ampere, NVIDIA A100 Tensor Core GPU Architecture](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/nvidia-ampere-architecture-whitepaper.pdf)
-- [Turing, NVIDIA Turing GPU Architecture](https://www.nvidia.com/en-us/design-visualization/technologies/turing-architecture/)
-- [Volta, NVIDIA TESLA V100](http://www.nvidia.com/object/volta-architecture-whitepaper.html)
-- [Pascal, NVIDIA TESLA P100](http://www.nvidia.com/object/gpu-architecture.html)
+- [NVIDIA Blackwell Architecture](https://resources.nvidia.com/en-us-blackwell-architecture)
+- [NVIDIA H100 Tensor Core GPU Architecture](https://resources.nvidia.com/en-us-tensor-core)
+- [NVIDIA A100 Tensor Core GPU Architecture](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/nvidia-ampere-architecture-whitepaper.pdf)
+- [NVIDIA Turing GPU Architecture](https://www.nvidia.com/en-us/design-visualization/technologies/turing-architecture/)
+- [NVIDIA TESLA V100](http://www.nvidia.com/object/volta-architecture-whitepaper.html)
+- [NVIDIA TESLA P100](http://www.nvidia.com/object/gpu-architecture.html)
 - [AMD CDNA2](https://www.amd.com/system/files/documents/amd-cdna2-white-paper.pdf)
 - [AMD CDNA](https://www.amd.com/system/files/documents/amd-cdna-whitepaper.pdf)
 
@@ -76,8 +76,6 @@
 - [NVIDIA DGX BasePOD: The Infrastructure Foundation for Enterprise AI](https://resources.nvidia.com/en-us-dgx-systems/nvidia-dgx-basepod)
 
 - [ConnectX-7 400G Adapters](https://nvdam.widen.net/s/srdqzxgdr5/connectx-7-datasheet)
-  - 32 lanes of PCIe Gen 5.0, compatible with PCIe Gen 2/3/4
-  - Integrated PCI switch
 - [ConnectX-6 200G Adapters](https://nvdam.widen.net/s/qpszhmhpzt/networking-overal-dpu-datasheet-connectx-6-dx-smartnic-1991450)
 - [ConnectX-5 100G Adapters](https://network.nvidia.com/files/doc-2020/pb-connectx-5-en-card.pdf)
 

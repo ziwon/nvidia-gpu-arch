@@ -1,4 +1,4 @@
-# nvidia-gpu-archi
+# nvidia-gpu-arch
 
 ## Overview
 ### GH200 

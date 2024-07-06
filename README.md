@@ -1,4 +1,5 @@
 # nvidia-gpu-arch
+![image](https://github.com/ziwon/nvidia-gpu-arch/assets/152046/cd190350-7b60-41d6-8730-d41a68651aac)
 
 ## Overview
 ### GH200 
@@ -60,13 +61,12 @@
 - [NVIDIA Blackwell Architecture Technical Brief](https://resources.nvidia.com/en-us-blackwell-architecture)
 - [NVIDIA DGX SuperPOD: Next Generation Scalable Infrastructure for AI Leadership](https://docs.nvidia.com/https:/docs.nvidia.com/dgx-superpod-reference-architecture-dgx-h100.pdf)
 - [NVIDIA DGX BasePOD: The Infrastructure Foundation for Enterprise AI](https://resources.nvidia.com/en-us-dgx-systems/nvidia-dgx-basepod)
-- [Datasheet](https://resources.nvidia.com/en-us-dgx-systems/ai-enterprise-dgx)
+- [H100 Datasheet](https://resources.nvidia.com/en-us-dgx-systems/ai-enterprise-dgx)
 - [ConnectX-7 400G Adapters](https://nvdam.widen.net/s/srdqzxgdr5/connectx-7-datasheet)
   - 32 lanes of PCIe Gen 5.0, compatible with PCIe Gen 2/3/4
   - Integrated PCI switch
 - [ConnectX-6 200G Adapters](https://nvdam.widen.net/s/qpszhmhpzt/networking-overal-dpu-datasheet-connectx-6-dx-smartnic-1991450)
 - [ConnectX-5 100G Adapters](https://network.nvidia.com/files/doc-2020/pb-connectx-5-en-card.pdf)
-
 
 ## User Guide
 - [H100](https://docs.nvidia.com/dgx/dgxh100-user-guide/dgxh100-user-guide.pdf)
@@ -103,6 +103,10 @@
 
 ## Tools
 - [nvtop](https://github.com/Syllo/nvtop)
+- [gtop](https://github.com/aksakalli/gtop)
+- [gmond](https://github.com/ganglia/gmond_python_modules/tree/master/gpu/nvidia)
+- [gpustat](https://github.com/wookayin/gpustat)
+- [gpu-utils](https://github.com/Ricks-Lab/gpu-utils)
 - [Statistics on GPUs](https://github.com/owensgroup/gpustats)
 
 ## Links

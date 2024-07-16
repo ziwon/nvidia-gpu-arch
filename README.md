@@ -90,7 +90,7 @@
 - [NVIDIA’s Blackwell Architecture: Breaking Down The B100, B200, and GB200](https://www.linkedin.com/pulse/nvidias-blackwell-architecture-breaking-down-b100-b200-gb200-wlp0c)
 - [NVIDIA Blackwell Architecture and B200/B100 Accelerators Announced: Going Bigger With Smaller Data](https://www.anandtech.com/show/21310/nvidia-blackwell-architecture-and-b200b100-accelerators-announced-going-bigger-with-smaller-data)
 - [Nvidia Blackwell Perf TCO Analysis - B100 vs B200 vs GB200NVL72](https://www.semianalysis.com/p/nvidia-blackwell-perf-tco-analysis)
-- [LLM Inference - HW/SW Optimizations](https://www.linkedin.com/pulse/llm-inference-hwsw-optimizations-sharada-yeluri-wfdyc)
+- [Trends in Deep Learning Hardware: Bill Dally (NVIDIA)](https://www.youtube.com/watch?v=kLiwvnr4L80)
 - [Hpc network technologies](https://jingchaozhang.github.io/HPC-network-technologies/)
 
 ## Certifications
@@ -106,12 +106,24 @@
 - [GPU Fabrics for GenAI Workloads](https://www.linkedin.com/pulse/gpu-fabrics-genai-workloads-sharada-yeluri-j8ghc)
   - [Youtube](https://www.youtube.com/watch?v=lTrHzqZ8Imo) 
 
-## Distributed
+## Course
+- [Deep Learning Fundamentals](https://lightning.ai/courses/deep-learning-fundamentals/)
+- [Machine Learning Engineering Open Book](https://github.com/stas00/ml-engineering)
+- [Google - Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
+- [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
+
+## Ops
+- [LLM Inference - HW/SW Optimizations](https://www.linkedin.com/pulse/llm-inference-hwsw-optimizations-sharada-yeluri-wfdyc)
+- [Accelerating Self-Attentions for LLM Serving with FlashInfer](https://flashinfer.ai/2024/02/02/introduce-flashinfer.html)
+- [vLLM: Easy, Fast, and Cheap LLM Serving with PagedAttention](https://blog.vllm.ai/2023/06/20/vllm.html)
+- [Everything about Distributed Training and Efficient Finetuning](https://sumanthrh.com/post/distributed-and-efficient-finetuning/)
+- [A complete guide to AI accelerators for deep learning inference — GPUs, AWS Inferentia and Amazon Elastic Inference](https://towardsdatascience.com/a-complete-guide-to-ai-accelerators-for-deep-learning-inference-gpus-aws-inferentia-and-amazon-7a5d6804ef1c)
+- [How Docker Runs Machine Learning on NVIDIA GPUs, AWS Inferentia, and Other Hardware AI Accelerators](https://towardsdatascience.com/how-docker-runs-machine-learning-on-nvidia-gpus-aws-inferentia-and-other-hardware-ai-accelerators-e076c6eb7802)
+- [Understanding GPU Memory 1: Visualizing All Allocations over Time](https://pytorch.org/blog/understanding-gpu-memory-1/)
+- [Understanding GPU Memory 2: Finding and Removing Reference Cycles](https://pytorch.org/blog/understanding-gpu-memory-2/)
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed)
   - [Universal Checkpointing: Efficient and Flexible Checkpointing for Large Scale Distributed Training](https://arxiv.org/abs/2406.18820)
 - [+Kyle’s excellent write-ups on testing distributed systems](https://jepsen.io/analyses)
-
-## Benchmark
 
 ## Tools
 - [nvtop](https://github.com/Syllo/nvtop)

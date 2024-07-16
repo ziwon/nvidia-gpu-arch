@@ -126,6 +126,7 @@
 - [+Kyle’s excellent write-ups on testing distributed systems](https://jepsen.io/analyses)
 
 ## Tools
+- [nsight compute](https://developer.nvidia.com/nsight-compute)
 - [nvtop](https://github.com/Syllo/nvtop)
 - [gtop](https://github.com/aksakalli/gtop)
 - [gmond](https://github.com/ganglia/gmond_python_modules/tree/master/gpu/nvidia)

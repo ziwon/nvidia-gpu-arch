@@ -68,13 +68,10 @@
 - [NVIDIA TESLA P100](http://www.nvidia.com/object/gpu-architecture.html)
 - [AMD CDNA2](https://www.amd.com/system/files/documents/amd-cdna2-white-paper.pdf)
 - [AMD CDNA](https://www.amd.com/system/files/documents/amd-cdna-whitepaper.pdf)
-
 - [B200 Datasheet](https://resources.nvidia.com/en-us-dgx-systems/dgx-b200-datasheet)
 - [H100 Datasheet](https://resources.nvidia.com/en-us-dgx-systems/ai-enterprise-dgx)
-  
 - [NVIDIA DGX SuperPOD: Next Generation Scalable Infrastructure for AI Leadership](https://docs.nvidia.com/https:/docs.nvidia.com/dgx-superpod-reference-architecture-dgx-h100.pdf)
 - [NVIDIA DGX BasePOD: The Infrastructure Foundation for Enterprise AI](https://resources.nvidia.com/en-us-dgx-systems/nvidia-dgx-basepod)
-
 - [ConnectX-7 400G Adapters](https://nvdam.widen.net/s/srdqzxgdr5/connectx-7-datasheet)
 - [ConnectX-6 200G Adapters](https://nvdam.widen.net/s/qpszhmhpzt/networking-overal-dpu-datasheet-connectx-6-dx-smartnic-1991450)
 - [ConnectX-5 100G Adapters](https://network.nvidia.com/files/doc-2020/pb-connectx-5-en-card.pdf)
@@ -111,7 +108,15 @@
 - [Machine Learning Engineering Open Book](https://github.com/stas00/ml-engineering)
 - [Google - Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)
 - [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
-
+- [NVIDIA GPU Computing: A Journey from PC Gaming to Deep Learning](https://www.youtube.com/watch?v=98Xis1W1mMk)
+- [Lec 18: Introduction to GPU architectures](https://www.youtube.com/watch?v=SnKgEuUfV4k&list=PLwdnzlV3ogoUT7g3BySY2QQesG3eB4dss&index=19)
+- [Lec 19: Case study on GPU architectures](https://www.youtube.com/watch?v=ssFJ5wXHYng&list=PLwdnzlV3ogoUT7g3BySY2QQesG3eB4dss&index=20)
+- [Lec 20: Tutorial on Superscalar processors and GPU](https://www.youtube.com/watch?v=rbCcrtnO3TE&list=PLwdnzlV3ogoUT7g3BySY2QQesG3eB4dss&index=21)
+- [HetSys Course: Lecture 1: Programming Heterogeneous Computing Systems with GPUs](https://www.youtube.com/watch?v=8JGo2zylE80&list=PL5Q2soXY2Zi-qSKahS4ofaEwYl7_qp9mw&index=1)
+- [HetSys Course: Lecture 2: SIMD Processing and GPUs](https://www.youtube.com/watch?v=zfru8aHZ44M&list=PL5Q2soXY2Zi-qSKahS4ofaEwYl7_qp9mw&index=2)
+- [HetSys Course: Lecture 3: GPU Software Hierarchy](https://www.youtube.com/watch?v=KGZ00J5MJz0&list=PL5Q2soXY2Zi-qSKahS4ofaEwYl7_qp9mw&index=3)
+- [HetSys Course: Lecture 4: GPU Memory Hierarchy](https://www.youtube.com/watch?v=ZQKMZIP3Fzg&list=PL5Q2soXY2Zi-qSKahS4ofaEwYl7_qp9mw&index=4)
+  
 ## Ops
 - [LLM Inference - HW/SW Optimizations](https://www.linkedin.com/pulse/llm-inference-hwsw-optimizations-sharada-yeluri-wfdyc)
 - [Accelerating Self-Attentions for LLM Serving with FlashInfer](https://flashinfer.ai/2024/02/02/introduce-flashinfer.html)
@@ -127,12 +132,15 @@
 
 ## Tools
 - [nsight compute](https://developer.nvidia.com/nsight-compute)
+- [ipyexperiments](https://github.com/stas00/ipyexperiments)
+- [pytorch_memlab](https://github.com/Stonesjtu/pytorch_memlab)
 - [nvtop](https://github.com/Syllo/nvtop)
 - [gtop](https://github.com/aksakalli/gtop)
 - [gmond](https://github.com/ganglia/gmond_python_modules/tree/master/gpu/nvidia)
 - [gpustat](https://github.com/wookayin/gpustat)
 - [gpu-utils](https://github.com/Ricks-Lab/gpu-utils)
 - [Statistics on GPUs](https://github.com/owensgroup/gpustats)
+- [The Art of Debugging](https://github.com/stas00/the-art-of-debugging)
 
 ## Links
 - [GPU Guide](https://github.com/mikeroyal/GPU-Guide)
